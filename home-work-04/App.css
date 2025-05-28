@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.counter-app {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.counter-display {
+  font-size: 2rem;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.controls {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #e9e9e9;
+  border-radius: 8px;
+}
+
+.step-control {
+  margin-bottom: 15px;
+}
+
+.step-control input {
+  margin-left: 10px;
+  padding: 5px;
+  width: 60px;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.buttons button {
+  padding: 8px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #45a049;
+}
+
+.buttons button:nth-child(3) {
+  background-color: #f44336;
+}
+
+.buttons button:nth-child(3):hover {
+  background-color: #d32f2f;
+}
+
+.buttons button:nth-child(4) {
+  background-color: #2196F3;
+}
+
+.buttons button:nth-child(4):hover {
+  background-color: #0b7dda;
+}
+
+.history {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e9e9e9;
+  border-radius: 8px;
+}
+
+.history ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.history li {
+  padding: 5px;
+  margin: 5px 0;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.second-counter {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #e9e9e9;
+  border-radius: 8px;
+}
+
+.second-counter .buttons button {
+  background-color: #ff9800;
+}
+
+.second-counter .buttons button:hover {
+  background-color: #e68a00;
+}
